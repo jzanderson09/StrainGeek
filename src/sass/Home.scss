@@ -1,0 +1,41 @@
+.Home {
+    margin: 5% auto;
+    width: 70%;
+    opacity: 0.8;
+
+    .card-body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10%;
+        background: rgba(185, 247, 206, 0.25);
+
+        .title-text-wrapper {
+            width: 40%;
+            border: 1px solid gray;
+            border-radius: 0.25rem;
+            box-shadow: 0.25rem 0.25rem 0.25rem;
+            padding: 1%;
+
+            .card-title {
+                color: blue;
+            }
+
+            .card-text {
+                padding: 3% auto 0;
+            }
+        }
+
+        form {
+
+            input {
+                margin: auto 1%;
+            }
+    
+            .login-button {
+                margin: 3%;
+            }
+        }
+
+    }
+}
