@@ -1,0 +1,21 @@
+.Strains {    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        width: 100%;
+    }
+
+    .button-wrapper {
+        width: 100%;
+
+        .strain-buttons {
+            align-self: flex-end;
+            margin: 5%;
+            width: 10%;
+            box-shadow: 10px 10px 10px black;
+        }
+    }
+}

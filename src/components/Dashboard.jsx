@@ -11,9 +11,10 @@ const Dashboard = () => {
     return (
         <div className='Dashboard'>
             <Navbar bg="primary" variant="dark">
-                <Navbar.Brand>Strain Geek</Navbar.Brand>
+                <Navbar.Brand>Tokédex</Navbar.Brand>
                 <Nav className="mr-auto">
                     <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/strains">Strains</Nav.Link>
                     <Nav.Link href="profile">Profile</Nav.Link>
                     <Nav.Link href="settings">Settings</Nav.Link>
                 </Nav>

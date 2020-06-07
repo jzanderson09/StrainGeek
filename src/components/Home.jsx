@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import '../sass/Home.scss';
 
 const Home = () => {
@@ -25,7 +26,7 @@ const Home = () => {
             >
                 <Card.Body>
                     <div className='title-text-wrapper'>
-                        <Card.Title><h1>Strain Geek</h1></Card.Title>
+                        <Card.Title><h1>Tokédex</h1></Card.Title>
                         <Card.Text>
                             <i>Fine Tune Your High</i>
                         </Card.Text>
@@ -50,6 +51,9 @@ const Home = () => {
                             className='login-button'
                         >Login</Button>
                     </form>
+                    <div className='signup-wrapper'>
+                        <p>Not a member? </p><Link to="/signup">Sign Up</Link>
+                    </div>
                 </Card.Body>
             </Card>
         </div>

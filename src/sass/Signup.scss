@@ -1,0 +1,28 @@
+.Signup {
+    margin: 5% auto;
+    width: 70%;
+    opacity: 0.8;
+
+    .card-body {
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10%;
+        background: rgba(185, 247, 206, 0.25);
+
+        form {
+            width: 35%;
+            margin: auto;
+
+            input {
+                margin: 7% auto;
+            }
+
+            .signup-button {
+                margin: 3%;
+            }
+        }
+    }
+}
